@@ -1,0 +1,22 @@
+body{
+
+    background: rgb(84, 22, 119);
+        background: linear-gradient(25deg, rgba(84, 22, 119, 0.8379726890756303) 1%, rgba(73, 55, 139, 0.93) 11%, rgba(62, 9, 112, 0.908000700280112) 44%, rgba(88, 9, 118, 0.8631827731092436) 81%, rgba(130, 8, 129, 0.9360119047619048) 100%);
+        background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+#box{
+    color: antiquewhite;
+    margin-top: 200px;
+    border: 3px solid white;
+    padding: 15px;
+    font-size: 35px;
+}
